@@ -1,0 +1,17 @@
+{
+  "name": "errorHandling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "test": "cls & jest",
+    "testw": "cls & jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
