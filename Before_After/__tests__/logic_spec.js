@@ -1,44 +1,5 @@
 const Car =  require('../logic')
-
-const expect  = require('expect')
-describe('Car test suite', () => {
-    let car;
-    beforeAll(() => {
-        car = {}
-    });
-
-    it('Should throw when car is created with black name', () => {
-        expect(() => {
-            var mycar = new Car(car)
-            
-        }).toThrow("Oops car name cant be blank "); 
-    });
-
-    
-    it('Should throw when car is created with black name', () => {
-        expect(() => {
-            car.name = "WaganR"
-            
-            var mycar = new Car(car)
-        }).toThrow(); 
-    });
-    it('Should throw when car is created with black name', () => {
-        expect(() => {
-            car.model = "LXI"
-            
-            var mycar = new Car(car)
-        }).toThrow(); 
-    });
-    it('Should throw when car is created with black name', () => {
-        expect(() => {
-            car.company = "Maruti"
-            
-            var mycar = new Car(car)
-        }).not.toThrow(); 
-    });
-});
-
-
+const expect  = require('expect');
 describe('Test related to speed', () => {
     let car;
     let maruti;
